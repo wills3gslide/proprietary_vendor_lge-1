@@ -94,6 +94,7 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
+    vendor/lge/msm8996-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/msm8996-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/msm8996-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/lge/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
@@ -493,6 +494,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     SimSettings \
     TimeService \
+    atfwd \
     datastatusnotification \
     embms \
     fastdormancy \
