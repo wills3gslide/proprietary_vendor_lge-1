@@ -252,6 +252,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
