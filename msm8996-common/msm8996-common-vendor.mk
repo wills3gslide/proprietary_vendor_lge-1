@@ -110,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/msm8996-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/msm8996-common/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/lge/msm8996-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/msm8996-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lge/msm8996-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lge/msm8996-common/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -151,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lge/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lge/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/lge/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/lge/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/lge/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -476,13 +476,13 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     QtiTelephonyService \
     SimSettings \
-    TimeService \
     datastatusnotification \
     embms \
     fastdormancy \
     shutdownlistener \
     QtiTetherService \
     qcrilmsgtunnel \
+    TimeService \
     ims \
     imssettings \
     qcnvitems \
