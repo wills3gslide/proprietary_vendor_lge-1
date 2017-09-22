@@ -97,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lge/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/lge/msm8996-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/msm8996-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/msm8996-common/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
@@ -139,7 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/lge/msm8996-common/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/lge/msm8996-common/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
-    vendor/lge/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/lge/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lge/msm8996-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/lge/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
