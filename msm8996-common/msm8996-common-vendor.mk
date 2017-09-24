@@ -146,6 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/lge/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lge/msm8996-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/lge/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/lge/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/lge/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
