@@ -95,7 +95,6 @@ PRODUCT_PACKAGES += \
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
-    vendor/lge/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/msm8996-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/msm8996-common/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -133,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/lge/msm8996-common/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
     vendor/lge/msm8996-common/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/lge/msm8996-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/lge/msm8996-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/lge/msm8996-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
